@@ -1,0 +1,10 @@
+Given an array o integers, find the sum of its elements.
+
+
+
+For Example, if the array ar = [1,2,3] return 6
+
+function simpleArraySum takes in 
+- ar[n]: an array of integers 
+
+returns an int that is the sum of values
