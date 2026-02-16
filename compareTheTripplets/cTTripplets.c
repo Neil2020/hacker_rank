@@ -21,9 +21,9 @@ int main () {
   //create result arr
   int result_arr[2] = {0,0};
   //alice array 
-  int a[3] = {17,28,30};
+  int a[3] = {5,6,7};
   //bob array
-  int b[3] = {99,16,8};
+  int b[3] = {3,6,10};
   //compare the triplits
   compareTriplets((sizeof(a)/sizeof(a[0])), a, (sizeof(b)/sizeof(b[0])), b, result_arr );
   printf("Alice: %d, Bob: %d ",result_arr[0],result_arr[1]);
